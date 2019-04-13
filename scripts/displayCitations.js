@@ -16,7 +16,7 @@ function displayCitations(){
 		var link = document.createElement("a");
 		var link_text = document.createTextNode("source");
 		link.appendChild(link_text);
-		link.setAttribute("href",url);alert("3");
+		link.setAttribute("href",url);
 
 		//sup元素能使元素在浏览器上呈现上标的效果
 		var superscript = document.createElement("sup");
