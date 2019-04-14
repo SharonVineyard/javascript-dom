@@ -52,16 +52,6 @@ function prepareGallery(){
 }
 
 
-//在指定标签后面元素
-function insertAfter(newElement,targetElement){
-	var parent = targetElement.parentNode;
-	if(parent.lastChild == targetElement){
-		parent.appendChild(newElement);
-	}else{
-		parent.insertBefore(newElement,targetElement.nextSibling);
-	}
-}
-
 //动态创建标记并将他们添加至html
 function preparePlaceholder(){
 	if(!document.createElement){
